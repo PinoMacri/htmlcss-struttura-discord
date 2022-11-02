@@ -4,21 +4,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 /*CENTRALIZZAZIONE LAYOUT*/
 .flex-container {
     display: flex;
-    width: 70%;
+    width: 60%;
     margin: 15px 0px;
 }
 .esternalColumn {
     flex-basis: calc(100% / 5 );
-    padding: 5px;
+    padding: 15px;
 }
 .centralColumn {
     flex-basis: calc(100% / 5 * 3 );
     text-align: center;
-    padding: 5px;
+    padding: 15px;
 }
 .styleDivGeneral {
     border: 2px dashed black;
@@ -28,22 +29,22 @@
 }
 .firstTypeAside-Container {
     background-color: white;
-    min-height: 300px;
+    min-height: 500px;
     display: flex;
     justify-content: center;
 
 }
 .secondTypeAside-Container {
     background-color: #D3D3D3;
-    min-height: 300px;
+    min-height: 500px;
     display: flex;
     justify-content: center;
   
 }
 .masterSectionBluePink {
    display: flex;
-    width: 70%;
-    margin: 20px auto;
+    width: 60%;
+    margin: 50px auto;
 }
 .sectionBlue {
     background-color: #1E90FF;
@@ -56,23 +57,23 @@
 .ultimateTypeAside-ContainerXXL {
     display: flex;
     justify-content: center;
-    min-height: 600px;
+    min-height: 800px;
     background-color: #D3D3D3;
 }
 .masterSectionGreen {
-    width: 70%;
-    margin: 20px auto;
+    width: 60%;
+    margin: 50px auto;
     background-color: #228B22;
 }
 .typeFooter-Container {
     background-color: #23272A;
-    min-height: 300px;
+    min-height: 500px;
     display: flex;
     justify-content: center;
 }
 .masterSectionColumnFooter {
     display: flex;
-    width: 70%;
+    width: 60%;
     margin-top: 5px;
     margin-bottom: 30px;
     margin-right: auto;
@@ -84,7 +85,7 @@
     border: 1px dashed black;
 }
 .footerGreen {
-    width: calc(100% / 6 * 2);
+    width: calc(100% / 6 );
     background-color: #20B2AA;
     border: 1px dashed white;
 }
@@ -96,7 +97,7 @@
     border-top: 1px solid white;
 }
 .secondtypeSectionColumnFooter {
-    width: 70%;
+    width: 60%;
     margin-top: 20px;
     background-color: #7FFFD4;
     display: flex;
@@ -134,11 +135,11 @@ main {
     display: flex;
     justify-content: center;
     background-color: #00008B ;
-    min-height: 300px;
+    min-height: 500px;
 }
 main section {
-    width: 60%;
-    margin: 30px 0px;
+    width: 50%;
+    margin: 50px 0px;
     background-color: #EE82EE;
     border: 2px dashed black;
 }
