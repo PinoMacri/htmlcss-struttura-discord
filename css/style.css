@@ -13,14 +13,15 @@
 }
 .esternalColumn {
     flex-basis: calc(100% / 5 );
+    padding: 5px;
 }
 .centralColumn {
     flex-basis: calc(100% / 5 * 3 );
     text-align: center;
+    padding: 5px;
 }
 .styleDivGeneral {
     border: 2px dashed black;
-    padding: 5px;
 }
 .dx {
     text-align: right;
@@ -43,8 +44,6 @@
    display: flex;
     width: 70%;
     margin: 20px auto;
-
-    
 }
 .sectionBlue {
     background-color: #1E90FF;
@@ -63,7 +62,51 @@
 .masterSectionGreen {
     width: 70%;
     margin: 20px auto;
-    background-color: green;
+    background-color: #228B22;
+}
+.typeFooter-Container {
+    background-color: #23272A;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.masterSectionColumnFooter {
+    display: flex;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footerPink {
+    width: calc(100% / 6 * 2);
+    background-color: #F08080;
+    border: 1px dashed black;
+}
+.footerGreen {
+    width: calc(100% / 6 * 2);
+    background-color: #20B2AA;
+    border: 1px dashed white;
+}
+.secondTypeFooter-Container {
+    background-color: #23272A;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+}
+.secondtypeSectionColumnFooter {
+    width: 70%;
+    margin-top: 20px;
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divUltimateFooter {
+    background-color: #FFB6C1 ;
+    border: 1px dashed black ;
+    padding: 5px;
 }
 
 /*HEADER*/
@@ -83,7 +126,9 @@ header div li {
 header div a {
    text-decoration: none;
    color: black;
+   padding: 5px;
 }
+
 /*MAIN*/
 main {
     display: flex;
@@ -96,5 +141,4 @@ main section {
     margin: 30px 0px;
     background-color: #EE82EE;
     border: 2px dashed black;
-
 }
