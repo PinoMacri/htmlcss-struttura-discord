@@ -3,22 +3,98 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*CENTRALIZZAZIONE LAYOUT*/
-.containerHeader {
+.flex-container {
     display: flex;
-    justify-content: center;
-    background-color: rgb(98, 255, 255);
-    padding: 10px auto;
-}
-.sectionHeader {
-    background-color: goldenrod;
-    border: 1px dashed black;
+    width: 70%;
     margin: 15px 0px;
-    padding: 10px; 
+}
+.esternalColumn {
+    flex-basis: calc(100% / 5 );
 }
 .centralColumn {
+    flex-basis: calc(100% / 5 * 3 );
+    text-align: center;
+}
+.styleDivGeneral {
+    border: 2px dashed black;
+    padding: 5px;
+}
+.dx {
+    text-align: right;
+}
+.firstTypeAside-Container {
+    background-color: white;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+.secondTypeAside-Container {
+    background-color: #D3D3D3;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+  
+}
+.masterSectionBluePink {
+   display: flex;
+    width: 70%;
+    margin: 20px auto;
+
     
 }
-/*HEADER*/
+.sectionBlue {
+    background-color: #1E90FF;
+    flex-basis: calc(100% / 3 * 2);
+}
+.sectionPink {
+    background-color: #FFC0CB;
+    flex-basis: calc(100% / 3);
+}
+.ultimateTypeAside-ContainerXXL {
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    background-color: #D3D3D3;
+}
+.masterSectionGreen {
+    width: 70%;
+    margin: 20px auto;
+    background-color: green;
+}
 
+/*HEADER*/
+header {
+    background-color: #ADD8E6;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+header div {
+    background-color: goldenrod;
+}
+header div li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+header div a {
+   text-decoration: none;
+   color: black;
+}
+/*MAIN*/
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #00008B ;
+    min-height: 300px;
+}
+main section {
+    width: 60%;
+    margin: 30px 0px;
+    background-color: #EE82EE;
+    border: 2px dashed black;
+
+}
